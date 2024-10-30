@@ -1,0 +1,157 @@
+body {
+    font-family: 'BigNoodleTitling', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-icon,
+.help-icon {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-icon img,
+.help-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-icon {
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+.help-icon {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bars-input {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bar-info h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.bar-info input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.audio-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.waveform {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+}
+
+.control-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.retry-button,
+.submit-button {
+    font-size: 1.5em;
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-button img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-button span {
+    font-size: 1.1em;
+}

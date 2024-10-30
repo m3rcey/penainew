@@ -1,0 +1,156 @@
+/* styles.css */
+
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('fonts/big_noodle_titling_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'BigNoodleTitling', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu-icon, .help-icon {
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+    color: #000;
+    border-radius: 15px; /* Changed from 50% to 15px to make the border a rounded square */
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.main-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-form label {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+.next-button {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'BigNoodleTitling', sans-serif;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 15px 0;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'BigNoodleTitling', sans-serif;
+}
+
+.nav-icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.nav-button span {
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'BigNoodleTitling', sans-serif;
+}
+
+.nav-button .nav-icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.nav-button:first-child .nav-icon::before {
+    content: '\1F4DD'; /* Unicode character for a pen icon */
+}

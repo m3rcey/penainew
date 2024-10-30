@@ -1,0 +1,64 @@
+/* styles.css */
+
+@font-face {
+    font-family: 'Antology';
+    src: url('fonts/Antology.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('fonts/big_noodle_titling_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero {
+    text-align: center;
+    max-width: 80%;
+    padding: 5vh 0;
+}
+
+.main-title {
+    font-family: 'Antology', sans-serif;
+    font-size: 12vw;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.subtitle {
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-size: 4vw;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+}
+
+.image-container {
+    margin-top: 2vh;
+}
+
+.pen-image {
+    width: 15vw;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}

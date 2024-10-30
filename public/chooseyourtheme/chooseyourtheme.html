@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Theme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <button class="menu-icon">&#9776;</button>
+        <button class="help-icon">?</button>
+    </header>
+
+    <div class="container">
+        <h1 class="main-title">Choose Your Theme</h1>
+        <form class="input-form">
+            <label for="song-about">What's your song about?</label>
+            <input type="text" id="song-about" class="input-box" placeholder="Enter your theme...">
+
+            <label for="keywords">Any keywords to include?</label>
+            <input type="text" id="keywords" class="input-box" placeholder="Enter keywords..."></label>
+
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" class="input-box" placeholder="Enter genre..."></label>
+
+            <button type="submit" class="next-button">Next</button>
+        </form>
+    </div>
+
+    <nav class="bottom-nav">
+        <button class="nav-button">
+            <span class="nav-icon">&#9899;</span>
+            <span>New Song</span>
+        </button>
+        <button class="nav-button">
+            <span class="nav-icon">&#128203;</span>
+            <span>Projects</span>
+        </button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

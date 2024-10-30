@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+    font-family: 'BigNoodleTitling', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Top Navigation */
+.top-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.hamburger-menu, .help-icon {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger-menu img, .help-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Page Title */
+.page-title {
+    margin-top: 80px;
+    text-align: center;
+}
+.page-title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Projects List */
+.projects-list {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.project-item input {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    background: none;
+    flex-grow: 1;
+}
+.project-actions {
+    display: flex;
+    gap: 10px;
+}
+.project-actions img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+.pagination span {
+    cursor: pointer;
+}
+
+/* New Song Button */
+.new-song-button-container {
+    margin-bottom: 20px;
+}
+.new-song-button {
+    font-size: 1.5rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/* Bottom Navigation */
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 10px 0;
+}
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+.nav-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.nav-item span {
+    font-size: 1rem;
+}
+
+/* Add scroll for projects list */
+.projects-list {
+    overflow-y: auto;
+    max-height: 50vh;
+}
